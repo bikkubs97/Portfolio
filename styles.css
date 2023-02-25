@@ -1,0 +1,469 @@
+@font-face {
+  font-family: 'Gothic';
+  src: url('fonts/Gothic.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+
+
+  
+}
+
+
+body {
+  margin: 0;
+  border: 0;
+  
+}
+
+.nav {
+  color: black;
+  width: 100%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  list-style: none;
+  margin: 1rem;
+}
+.link a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  color:  #6F0FDF
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+
+}
+
+.image {
+  align-self:end;
+  width: 40vw;
+  height: 80vh;
+  bottom: 0;
+  background-position: center;
+  background-image: url(images/steve.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+ 
+  
+ 
+}
+
+
+.image:hover::before{
+  content: "It's not me, hero section is for heros!";
+  color:#6F0FDF;
+  position: absolute;
+  top: 1rem;
+  left: 7rem;
+  width: 90%; 
+  display: block;
+  font-size: 1.3rem;
+  text-align: center;
+
+ 
+}
+
+.name {
+
+  
+  position: relative;
+ 
+}
+
+.quote {
+ 
+    
+    font-size: 2.3rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    font-weight: lighter;
+  
+   
+}
+.quote .big{
+ font-size: 4rem;
+ background-image: linear-gradient(to right, rgb(122, 82, 231), #6F0FDF, #CA2BB6);
+-webkit-background-clip: text;
+color:transparent;
+background-size: 400%;
+animation:bg-animation 5s infinite alternate;
+
+
+
+
+}
+
+.quote::after {
+ 
+    
+  content:"Steve Jobs";
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, rgb(122, 82, 231), #6F0FDF, #CA2BB6);
+background-size: 400%;
+animation:bg-animation 5s infinite alternate;
+  color: aliceblue;
+  padding: 0.5rem;
+
+ 
+}
+
+@keyframes bg-animation{
+0%{
+ background-position: top;
+}
+100%{
+  background-position: bottom;
+}
+
+
+
+}
+
+
+.name h2 {
+
+  position: relative;
+  bottom: -15rem;
+  font-size: 3rem;
+  width: fit-content;
+  margin-left: 2.5rem;
+  background-image: linear-gradient(to right, rgb(122, 82, 231), #6F0FDF, #CA2BB6);
+-webkit-background-clip: text;
+color:transparent;
+background-size: 400%;
+animation:bg-animation 5s infinite alternate;
+
+ 
+  
+}
+.name h2::before, .name h2::after {
+
+  content: "";
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+
+  
+}
+
+.name h2::before{
+  
+  background:rgb(255, 255, 255);
+  animation: typing 5s steps(14) forwards;
+
+}
+
+@keyframes typing {
+to{
+
+left: 100%;
+
+
+}}
+
+@keyframes blinking{
+
+  to{
+    background: transparent;
+  }
+
+
+}
+
+@keyframes bg-animation{
+  0%{
+   background-position: left;
+  }
+  100%{
+    background-position: right;
+  }
+}
+.name h2::after{
+  width: 0.125em;
+  background:rgb(0, 0, 0);
+   animation: typing 5s steps(14) forwards , blinking 800ms steps(14) infinite;
+
+
+
+}
+
+
+
+.name h3 {
+  position: relative;
+  bottom: -15rem;
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  width: fit-content;
+  font-weight: lighter;
+  
+}
+
+.name h3{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-delay: 5s;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.content {
+  background-image: linear-gradient(to bottom, #2A2342, #490597);
+  text-align: center;
+}
+
+.content img {
+  width: 40%;
+}
+
+
+.content h4 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+   color:  #ffffff;
+  
+
+}
+.dev-project-container{
+    margin: 3rem;
+    display: grid;
+    grid-template:300px 300px / 600px 600px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+ 
+
+}
+.dev-project-container img{
+    border-radius: 0.5rem;
+    width: 400px;
+}
+
+
+.design-images {
+    display: grid;
+    grid-template:290px 280px / 600px 600px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding-bottom: 3rem;
+    color: #e4e4e4;
+    font-size: 1rem;
+
+
+}
+
+.design-images b{
+
+color:#f09000;  
+}
+.design-images img{
+    width: 400px;
+    border-radius: 0.5rem;
+    
+}
+.design-images img:hover{
+  width: 400px;
+  border:2px solid rgb(255, 196, 0);
+  
+  
+}
+.skills{
+
+  background-color: #ffffff;
+  padding: 3rem;
+}
+.skills h4{
+
+  color:#6F0FDF;
+}
+
+
+.skills div {
+  display: grid;
+  text-align: center;
+  grid-template: 250px 250px / 200px 200px 200px 200px 200px 200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.certifications {
+  height: 80vh;
+  background-color: #ffffff;
+
+  
+
+}
+
+.certifications div {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  justify-items: space-around;
+  
+}
+
+.certifications img {
+  margin-top: 2rem;
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.certifications img:hover {
+  border:2px solid slateblue;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  background-color:white ;
+  
+
+
+}
+.cont{
+text-align:left;
+color: rgb(0, 0, 0);
+padding:  3rem;
+font-size: 1.5rem;
+
+}
+
+
+
+h5{
+  
+    font-size: 1.5rem;
+    color:#490597;  
+
+}
+
+
+
+    
+.footer{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: white;
+
+
+}
+.footer img{
+    
+
+    width: 60px;
+}
+
+
+
+
+
+
+ 
+    
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+transition: all 1s;
+
+
+}    
+
+.show{
+
+opacity: 1;
+filter: blur(0);
+transform: translateX(0);
+
+}
+.dev-project-container:nth-child(1){
+
+    transition-delay: 200ms;
+}
+.dev-project-container:nth-child(2){
+
+    transition-delay: 400ms;
+}
+.dev-project-container:nth-child(2){
+
+    transition-delay: 600ms;
+}
+
+.dev-project-container:nth-child(2){
+
+    transition-delay: 800ms;
+}
+
+
+.design-images:nth-child(1){
+
+    transition-delay: 200ms;
+}
+.design-images:nth-child(2){
+
+    transition-delay: 400ms;
+}
+.design-images:nth-child(3){
+
+    transition-delay: 600ms;
+}
+.design-images:nth-child(4){
+
+    transition-delay: 800ms;
+}
+
+
+
+
+.certificates:nth-child(1){
+
+    transition-delay: 200ms;
+}
+.certificates:nth-child(2){
+
+    transition-delay: 250ms;
+}
+
+
+
+
+.certificates:nth-child(1){
+
+    transition-delay: 200ms;
+}
+.certificates:nth-child(2){
+
+    transition-delay: 250ms;
+}
+

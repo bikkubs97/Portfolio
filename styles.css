@@ -221,7 +221,7 @@ left: 100%;
 
 
 .content{
-  background-image: linear-gradient(to bottom, #2A2342, #490597);
+  background-color:  #2A2342;
   text-align: center;
 }
 .content img {
@@ -297,7 +297,7 @@ color:#f09000;
 }
 .skills h4{
 
-  color:#6F0FDF;  
+  color:#410a80;  
 }
 
 

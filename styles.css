@@ -5,6 +5,9 @@
 
 body {
   font-family: 'Century Gothic', sans-serif;
+  margin: 0;
+  border: 0;
+  background-color: #ffffff;
 }
 
 
@@ -15,16 +18,10 @@ body {
   
 }
 
-
-body {
-  margin: 0;
-  border: 0;
-  
-}
-
 .nav {
   color: black;
   width: 100%;
+  
 }
 .list {
   display: flex;
@@ -37,6 +34,7 @@ body {
   color: inherit;
   text-decoration: none;
   font-size: 1.5rem;
+ margin-right: 2rem;
 }
 
 .link:hover {
@@ -49,6 +47,7 @@ body {
   width: 100%;
   height: 90vh;
   overflow: hidden;
+
 
 }
 
@@ -68,24 +67,11 @@ body {
 }
 
 
-.image:hover::before{
-  content: "It's not me, hero section is for heros!";
-  color:#6F0FDF;
-  position: absolute;
-  top: 1rem;
-  left: 7rem;
-  width: 90%; 
-  display: block;
-  font-size: 1.3rem;
-  text-align: center;
-
- 
-}
-
 .name {
 
   
   position: relative;
+  width: 40%;
  
 }
 
@@ -93,7 +79,7 @@ body {
  
     
     font-size: 2.3rem;
-    padding-top: 4rem;
+    padding-top: .5rem;
     padding-right: 3rem;
     font-weight: lighter;
   
@@ -233,11 +219,11 @@ left: 100%;
   to { opacity: 1; }
 }
 
-.content {
+
+.content{
   background-image: linear-gradient(to bottom, #2A2342, #490597);
   text-align: center;
 }
-
 .content img {
   width: 40%;
 }
@@ -252,13 +238,17 @@ left: 100%;
 
 }
 .dev-project-container{
-    margin: 3rem;
+  margin-top: 2rem;
     display: grid;
-    grid-template:300px 300px / 600px 600px;
+    gap: 4rem;
+    grid-template:290px 280px / 600px 600px;
+
     justify-content: center;
     align-items: center;
     align-content: space-around;
- 
+    padding-bottom: 3rem;
+    color: #e4e4e4;
+    font-size: 1rem;
 
 }
 .dev-project-container img{
@@ -268,7 +258,9 @@ left: 100%;
 
 
 .design-images {
+  margin-top: 2rem;
     display: grid;
+    gap: 4rem;
     grid-template:290px 280px / 600px 600px;
 
     justify-content: center;
@@ -281,16 +273,18 @@ left: 100%;
 
 }
 
-.design-images b{
-
+.design-images b, .dev-project-container b{
+ font-weight: bold;
 color:#f09000;  
 }
-.design-images img{
+.design-images img, .dev-project-container img{
     width: 400px;
     border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     
 }
-.design-images img:hover{
+.design-images img:hover, .dev-project-container img:hover{
   width: 400px;
   border:2px solid rgb(255, 196, 0);
   
@@ -299,11 +293,11 @@ color:#f09000;
 .skills{
 
   background-color: #ffffff;
-  padding: 3rem;
+
 }
 .skills h4{
 
-  color:#6F0FDF;
+  color:#6F0FDF;  
 }
 
 
@@ -313,12 +307,13 @@ color:#f09000;
   grid-template: 250px 250px / 200px 200px 200px 200px 200px 200px;
   justify-content: center;
   align-items: center;
+  margin-left: 5rem;
 
 }
 
 .certifications {
-  height: 80vh;
-  background-color: #ffffff;
+
+  color: #ffffff;
 
   
 
@@ -329,7 +324,7 @@ color:#f09000;
   justify-content: center;
   align-content: space-around;
   justify-items: space-around;
-  
+  margin-bottom: 2rem;
 }
 
 .certifications img {
@@ -338,19 +333,20 @@ color:#f09000;
   border-radius: 0.5rem;
 }
 .certifications img:hover {
-  border:2px solid slateblue;
+  border:2px solid rgb(255, 196, 0);
 }
 .contact{
   display: flex;
   justify-content: space-between;
-  background-color:white ;
+
+  
   
 
 
 }
 .cont{
 text-align:left;
-color: rgb(0, 0, 0);
+color:white;
 padding:  3rem;
 font-size: 1.5rem;
 
@@ -361,7 +357,8 @@ font-size: 1.5rem;
 h5{
   
     font-size: 1.5rem;
-    color:#490597;  
+    color:rgb(255, 196, 0 );
+    
 
 }
 
@@ -384,11 +381,13 @@ background-color: white;
 }
 
 
+.footer img:hover{
+    
+
+   transform: scale(1.1);
+}
 
 
-
-
- 
     
 
 .hidden{
@@ -458,12 +457,74 @@ transform: translateX(0);
 
 
 
-.certificates:nth-child(1){
 
-    transition-delay: 200ms;
+
+
+
+@media (max-width:1000px){
+
+ .image, .quote, .skills{
+  display: none;
 }
-.certificates:nth-child(2){
 
-    transition-delay: 250ms;
+.hero{
+
+  text-align: center;
 }
 
+.name{
+width: 100%;
+}
+
+.name h2{
+
+font-size: 2.5rem;
+
+
+}
+.name h3{
+
+  font-size: 1.5rem;
+}
+
+
+
+
+.design-images, .dev-project-container {
+  display: grid;
+  grid-template:290px 280px / 100% ;
+  gap: 3rem;
+
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding-bottom: 3rem;
+  color: #e4e4e4;
+  font-size: 1rem;
+
+
+}
+
+
+.certifications div{
+  display: grid;
+  grid-template-columns: 100% ;
+  
+}
+.list a{
+  font-size: 2rem;
+;
+
+}
+
+.list {
+  display: block;
+  padding: 1rem;
+}
+.link{
+
+padding-top: 0.5rem;
+
+}
+
+}

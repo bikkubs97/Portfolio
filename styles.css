@@ -474,17 +474,21 @@ transform: translateX(0);
 
 .name{
 width: 100%;
+top: 1.5rem;
+
 }
 
 .name h2{
 
-font-size: 2.5rem;
+top: 2rem;
+font-size: 2rem;
 
 
 }
 .name h3{
 
   font-size: 1.5rem;
+  top:3rem;
 }
 
 
@@ -510,9 +514,16 @@ font-size: 2.5rem;
   display: grid;
   grid-template-columns: 100% ;
   
+  
+}
+.certifications img{
+  margin: 0;
+  padding: 0;
+  
 }
 .list a{
-  font-size: 2rem;
+  font-size: 1rem;
+  margin-left: 1rem;
 ;
 
 }

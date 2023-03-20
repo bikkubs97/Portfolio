@@ -500,6 +500,8 @@ top: 1.5rem;
 .web h4, .certifications h4, .design h4, .contact h4, #contact {
 
 font-size: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
 
 }
 .contact h5, p{
@@ -528,8 +530,8 @@ font-size: 2rem;
 
 .design-images, .dev-project-container {
   display: grid;
-  grid-template:290px 280px / 90% ;
-  gap: 3rem;
+  grid-template-columns: 100%;
+  gap: 8rem;
 
   justify-content: center;
   align-items: center;
@@ -576,5 +578,8 @@ padding-top: 0.5rem;
       width: 20px;
   }
   
+  .pic{
+    display: none;
+  }
 
 }

@@ -253,6 +253,8 @@ padding-right: 15%;
 
 
 
+
+
 }
 
 .dev-project-container{
@@ -291,13 +293,7 @@ padding-right: 15%;
 
 }
 
-.web p, .design p{
 
-  padding-left:1%;
-  padding-right: 1%;
-  
-  
-}
 
 .design-images b, .dev-project-container b{
  font-weight: bold;
@@ -392,6 +388,7 @@ h5{
   
     font-size: 1.5rem;
     color:rgb(220, 183, 255);
+   
     
 
 }

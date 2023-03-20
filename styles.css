@@ -60,6 +60,7 @@ body {
   background-image: url(images/steve.png);
   background-size: contain;
   background-repeat: no-repeat;
+ 
   
  
   
@@ -139,7 +140,7 @@ background-size: 400%;
 animation:bg-animation 5s infinite alternate;
 
  
-  
+
 }
 .name h2::before, .name h2::after {
 
@@ -233,21 +234,31 @@ left: 100%;
   margin: 0;
   padding: 1rem;
   font-size: 1.6rem;
-   color:  #ffffff;
+   color:  rgb(250, 250, 250);
   
 
 }
+
+.web p, .design p{
+
+padding-left:15%;
+padding-right: 15%;
+
+
+
+}
+
 .dev-project-container{
   margin-top: 2rem;
     display: grid;
     gap: 4rem;
-    grid-template:290px 280px / 600px 600px;
+    grid-template:290px 300px / 600px 600px;
 
     justify-content: center;
     align-items: center;
     align-content: space-around;
     padding-bottom: 3rem;
-    color: #e4e4e4;
+    color:rgb(255, 255, 255);
     font-size: 1rem;
 
 }
@@ -267,7 +278,7 @@ left: 100%;
     align-items: center;
     align-content: space-around;
     padding-bottom: 3rem;
-    color: #e4e4e4;
+    color:rgb(255, 255, 255);
     font-size: 1rem;
 
 
@@ -275,7 +286,7 @@ left: 100%;
 
 .design-images b, .dev-project-container b{
  font-weight: bold;
-color:#f09000;  
+color:rgb(220, 183, 255)  ;
 }
 .design-images img, .dev-project-container img{
     width: 400px;
@@ -286,7 +297,7 @@ color:#f09000;
 }
 .design-images img:hover, .dev-project-container img:hover{
   width: 400px;
-  border:2px solid rgb(255, 196, 0);
+  border:2px solid rgb(220, 183, 255);
   
   
 }
@@ -333,7 +344,7 @@ color:#f09000;
   border-radius: 0.5rem;
 }
 .certifications img:hover {
-  border:2px solid rgb(255, 196, 0);
+  border:2px solid rgb(220, 183, 255);
 }
 .contact{
   display: flex;
@@ -351,13 +362,21 @@ padding:  3rem;
 font-size: 1.5rem;
 
 }
+.pic{
+
+  margin-left: 40vw;
+   padding: 4rem;
+   border-radius: 5rem;
+ 
+
+}
 
 
 
 h5{
   
     font-size: 1.5rem;
-    color:rgb(255, 196, 0 );
+    color:rgb(220, 183, 255);
     
 
 }
@@ -478,6 +497,19 @@ top: 1.5rem;
 
 }
 
+.web h4, .certifications h4, .design h4, .contact h4, #contact {
+
+font-size: 1rem;
+
+}
+.contact h5, p{
+
+font-size: 0.8rem;
+  
+}
+
+
+
 .name h2{
 
 top: 2rem;
@@ -496,7 +528,7 @@ font-size: 2rem;
 
 .design-images, .dev-project-container {
   display: grid;
-  grid-template:290px 280px / 100% ;
+  grid-template:290px 280px / 90% ;
   gap: 3rem;
 
   justify-content: center;
@@ -522,7 +554,7 @@ font-size: 2rem;
   
 }
 .list a{
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
 ;
 
@@ -537,5 +569,12 @@ font-size: 2rem;
 padding-top: 0.5rem;
 
 }
+
+  .footer img{
+      
+  
+      width: 20px;
+  }
+  
 
 }

@@ -548,12 +548,12 @@ font-size: 2rem;
 .design-images, .dev-project-container {
   display: grid;
   grid-template-columns: 50%;
-  margin-left: 1rem;
- padding-right: 10vw;
+  margin-left: 1rem;;
   gap: 5rem;
   text-align: left;
   overflow: hidden;
   padding-top: 2rem;
+  padding-right: 1rem;
   
 
   justify-content: left;
@@ -564,6 +564,14 @@ font-size: 2rem;
   
 
 
+}
+.design-images img, .dev-project-container img{
+  width: 90vw;
+ 
+}
+design-images img:hover, .dev-project-container img:hover{
+  width: 90vw;
+ 
 }
 
 
@@ -594,6 +602,9 @@ font-size: 2rem;
 padding-top: 0.5rem;
 
 }
+
+
+  
 
   .footer img{
       

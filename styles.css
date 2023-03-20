@@ -239,6 +239,13 @@ left: 100%;
 
 }
 
+.web{
+
+  margin-top: 1rem;
+}
+
+
+
 .web p, .design p{
 
 padding-left:15%;
@@ -282,6 +289,14 @@ padding-right: 15%;
     font-size: 1rem;
 
 
+}
+
+.web p, .design p{
+
+  padding-left:1%;
+  padding-right: 1%;
+  
+  
 }
 
 .design-images b, .dev-project-container b{
@@ -500,8 +515,6 @@ top: 1.5rem;
 .web h4, .certifications h4, .design h4, .contact h4, #contact {
 
 font-size: 1rem;
-margin-top: 1rem;
-margin-bottom: 1rem;
 text-align: left;
 
 }
@@ -511,6 +524,9 @@ font-size: 0.8rem;
   
 }
 
+.web p , .design p{
+  width: 200%;
+}
 
 
 .name h2{
@@ -531,11 +547,15 @@ font-size: 2rem;
 
 .design-images, .dev-project-container {
   display: grid;
-  grid-template-columns: 80%;
-  gap: 8rem;
-  text-align: left;
-  
+  grid-template-columns: 50%;
   margin-left: 1rem;
+ padding-right: 3rem;
+  gap: 5rem;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 2rem;
+  
+
   justify-content: left;
 
   padding-bottom: 3rem;

@@ -298,6 +298,7 @@ padding-right: 15%;
 .design-images b, .dev-project-container b{
  font-weight: bold;
 color:rgb(220, 183, 255)  ;
+
 }
 .design-images img, .dev-project-container img{
     width: 400px;
@@ -378,6 +379,7 @@ font-size: 1.5rem;
   margin-left: 40vw;
    padding: 4rem;
    border-radius: 5rem;
+  
  
 
 }
@@ -501,6 +503,8 @@ transform: translateX(0);
 .hero{
 
   text-align: center;
+  background-image: url('/images/cover.png');
+  background-size: cover;
 }
 
 .name{
@@ -566,7 +570,7 @@ font-size: 2rem;
   width: 90vw;
  
 }
-design-images img:hover, .dev-project-container img:hover{
+.design-images img:hover, .dev-project-container img:hover{
   width: 90vw;
  
 }
@@ -606,7 +610,7 @@ padding-top: 0.5rem;
   .footer img{
       
   
-      width: 20px;
+      width: 40px;
   }
   
   .pic{

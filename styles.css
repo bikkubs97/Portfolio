@@ -358,6 +358,7 @@ color:rgb(220, 183, 255)  ;
 }
 .certifications img:hover {
   border:2px solid rgb(220, 183, 255);
+   box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
 }
 .contact{
   display: flex;

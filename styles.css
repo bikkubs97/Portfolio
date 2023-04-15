@@ -467,7 +467,7 @@ h5 {
   }
 }
 
-@media (max-width: 1000px) and (orientation: landscape) {
+@media (max-width: 1000px)  {
   .image,
   .quote,
   .skills {
@@ -522,7 +522,7 @@ h5 {
 
   .design-images,
   .dev-project-container {
-    display: grid;
+  
     grid-template-columns: 50%;
     margin-left: 1rem;
     gap: 5rem;
@@ -536,6 +536,8 @@ h5 {
     padding-bottom: 3rem;
     color: #e4e4e4;
     font-size: 1rem;
+    max-width: 90vw;
+   
   }
   .design-images img,
   .dev-project-container img {
@@ -548,7 +550,7 @@ h5 {
 
   .certifications div {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
   
   }
   .certifications img {
@@ -579,15 +581,7 @@ h5 {
     position: absolute;
     top: 40vh;
   }
-  body {
-    transform: rotate(90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+ 
 }
 
 

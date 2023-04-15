@@ -310,7 +310,7 @@ color:rgb(220, 183, 255)  ;
 .design-images img:hover, .dev-project-container img:hover{
   width: 400px;
   border:2px solid rgb(220, 183, 255);
-  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px 0 rgb(225, 159, 255);
   
   
 }

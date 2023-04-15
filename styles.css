@@ -467,7 +467,7 @@ h5 {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .image,
   .quote,
   .skills {
@@ -579,8 +579,6 @@ h5 {
     position: absolute;
     top: 40vh;
   }
-}
-@media screen and (orientation: landscape) {
   body {
     transform: rotate(90deg);
     transform-origin: left top;
@@ -591,3 +589,7 @@ h5 {
     left: 0;
   }
 }
+
+
+
+  

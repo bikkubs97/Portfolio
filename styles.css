@@ -486,7 +486,7 @@ h5 {
     left: 1.5rem;
 
   }
- 
+  
   
   .web h4,
   .certifications h4,
@@ -506,10 +506,7 @@ h5 {
     font-size: 1rem;
   }
 
-  .web p,
-  .design p {
-    width: 200%;
-  }
+  
 
   .name h2 {
     top: 2rem;
@@ -526,7 +523,7 @@ h5 {
   
     display: block;
     margin-left: 1rem;
-    gap: 5rem;
+
     text-align: left;
     overflow: hidden;
     padding-top: 2rem;
@@ -540,18 +537,16 @@ h5 {
     max-width: 90vw;
    
   }
-  .design-images img,
-  .dev-project-container img {
-    width: 90vw;
+  .design-images p,
+  .dev-project-container p{
+    margin-left: 0;
+    padding: 0;
+    max-width: 450px;
   }
-  .design-images img:hover,
-  .dev-project-container img:hover {
-    width: 90vw;
-  }
+  
 
   .certifications div {
-    display: grid;
-    grid-template-columns: 90%;
+    display: block;
   
   }
   .certifications img {

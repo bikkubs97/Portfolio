@@ -519,11 +519,12 @@ h5 {
     font-size: 1.5rem;
     top: 3rem;
   }
+ 
 
   .design-images,
   .dev-project-container {
   
-    grid-template-columns: 50%;
+    display: block;
     margin-left: 1rem;
     gap: 5rem;
     text-align: left;
@@ -584,17 +585,4 @@ h5 {
  
 }
 
-@media screen and (orientation: landscape) {
-  body {
-    transform: rotate(90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-}
 
-
-  

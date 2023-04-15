@@ -18,5 +18,4 @@ hiddenElements.forEach((el) => {
 })
 
 
-  
 

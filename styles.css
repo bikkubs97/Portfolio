@@ -467,7 +467,7 @@ h5 {
   }
 }
 
-@media (orientation: portrait) and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .image,
   .quote,
   .skills {

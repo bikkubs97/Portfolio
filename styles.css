@@ -486,6 +486,7 @@ h5 {
     left: 1.5rem;
 
   }
+ 
   
   .web h4,
   .certifications h4,
@@ -497,11 +498,12 @@ h5 {
   }
   .list{
   margin: 1rem 0;
+
   
   }
   .contact h5,
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .web p,
@@ -547,9 +549,10 @@ h5 {
   .certifications div {
     display: grid;
     grid-template-columns: 100%;
+  
   }
   .certifications img {
-    margin: 0;
+      margin-bottom: 1rem;
     padding: 0;
   }
   .list a {
@@ -575,5 +578,16 @@ h5 {
   .cloud{
     position: absolute;
     top: 40vh;
+  }
+}
+@media screen and (orientation: landscape) {
+  body {
+    transform: rotate(90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

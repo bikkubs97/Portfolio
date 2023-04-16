@@ -48,10 +48,13 @@ html{
   overflow: hidden;
   height: 88vh;
   background-image: url('./images/layered.svg');
-  
-
+  transform-style: preserve-3d;
+  transform: translateZ(-10);
   z-index: -10;
 }
+
+
+
 .cloud {
   position: relative;
   width: 150px;
@@ -258,15 +261,23 @@ html{
   font-size: 1.6rem;
   color: rgb(250, 250, 250);
 }
-
-
+.dir{
+  font-weight: 50;
+}
 
 .web p,
 .design p {
   padding-left: 15%;
   padding-right: 15%;
 }
-
+.git{
+  text-decoration: none;
+  color:#ac8eff;
+}
+.git:hover{
+  text-decoration: none;
+  color:#f68eff;
+}
 .dev-project-container {
   margin-top: 2rem;
   display: grid;
@@ -513,7 +524,9 @@ h5 {
     font-size: 1rem;
   }
 
-  
+  .dir{
+    display: none;
+  }
 
   .name h2 {
     top: 2rem;

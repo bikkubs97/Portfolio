@@ -360,7 +360,8 @@ body {
 .pic {
   margin-left: 40vw;
   padding: 4rem;
-  border-radius: 5rem;}
+  border-radius: 5rem;
+  display: none;}
 
 h5 {
   font-size: 1.5rem;

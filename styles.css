@@ -323,7 +323,7 @@ body {
   grid-template: 250px 250px / 200px 200px 200px 200px 200px 200px;
   justify-content: center;
   align-items: center;
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
 
 .certifications {
@@ -332,10 +332,9 @@ body {
 
 .certifications div {
   display: flex;
-  justify-content: center;
-  align-content: space-around;
-  justify-items: space-around;
-  margin-bottom: 2rem;
+
+  margin-bottom: 1rem;
+  margin: 5rem;
 }
 
 .certifications img {
@@ -356,12 +355,12 @@ body {
   color: white;
   padding: 3rem;
   font-size: 1.5rem;
+  margin-left: 5rem;
 }
 .pic {
   margin-left: 40vw;
   padding: 4rem;
-  border-radius: 5rem;
-}
+  border-radius: 5rem;}
 
 h5 {
   font-size: 1.5rem;

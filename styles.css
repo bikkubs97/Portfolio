@@ -111,8 +111,9 @@ html{
   background-image: url(images/steve.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
 
+
+}
 
 .name {
   width: 40%;
@@ -554,7 +555,7 @@ h5 {
     padding-bottom: 3rem;
     color: #e4e4e4;
     font-size: 1rem;
-    max-width: 90vw;
+    max-width: 80vw;
    
   }
   .design-images p,
@@ -567,12 +568,18 @@ h5 {
 
   .certifications div {
     display: block;
+    width: 80%;
+    margin-left: 1rem;
   
   }
   .certifications img {
-      margin-bottom: 1rem;
-    padding: 0;
-  }
+
+        margin-top: 1rem;
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+   
+    
   .list a {
     font-size: 1.5rem;
     margin-left: 1rem;
@@ -587,7 +594,7 @@ h5 {
   }
 
   .footer img {
-    width: 40px;
+    width: 45px;
   }
 
   .pic {
@@ -597,7 +604,11 @@ h5 {
     position: absolute;
     top: 40vh;
   }
- 
+ .cont{
+  margin-left: 0;
+  padding: 1rem;
+ }
+
+
+
 }
-
-

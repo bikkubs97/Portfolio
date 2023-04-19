@@ -17,5 +17,3 @@ hiddenElements.forEach((el) => {
     observer.observe(el)
 })
 
-
-

@@ -555,14 +555,21 @@ h5 {
     padding-bottom: 3rem;
     color: #e4e4e4;
     font-size: 1rem;
-    max-width: 80vw;
+    max-width: 90vw;
+   
+  }
+  .design-images img,
+  .dev-project-container img {
+  
+   width: 100%;
    
   }
   .design-images p,
   .dev-project-container p{
-    margin-left: 0;
+    margin-left: 1rem;
     padding: 0;
-    max-width: 450px;
+    max-width: 90vw;
+    
   }
   
 

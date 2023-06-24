@@ -318,14 +318,14 @@ html{
 }
 .design-images img,
 .dev-project-container img {
-  width: 400px;
+
   border-radius: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 .design-images img:hover,
 .dev-project-container img:hover {
-  width: 400px;
+
   border: 2px solid rgb(220, 183, 255);
   box-shadow: 0 0 10px 0 rgb(225, 159, 255);
 }

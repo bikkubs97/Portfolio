@@ -318,7 +318,7 @@ html{
 }
 .design-images img,
 .dev-project-container img {
-
+  width: 400px;
   border-radius: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
